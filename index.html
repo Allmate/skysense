@@ -1,0 +1,148 @@
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Weather App Project JavaScript</title>
+    <link rel="stylesheet" href="styles.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="script.js" defer></script>
+    <script
+      src="https://kit.fontawesome.com/aa85f0dae5.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <h1 style="text-align: left; color: black; padding-left: 20px">
+      CITY Weather Forecasting
+    </h1>
+    <div class="container">
+      <div class="weather-input">
+        <input class="city-input" type="text" placeholder="Enter a City Name" />
+        <button class="search-btn">
+          Search
+          <i
+            class="fa-solid fa-magnifying-glass-location"
+            style="color: #88aab5"
+          ></i>
+        </button>
+        <div style="padding-top: 2%"></div>
+        <button class="location-btn">
+          Current Location
+          <i
+            class="fa-solid fa-magnifying-glass-location"
+            style="color: #88aab5"
+          ></i>
+        </button>
+        <div class="separator"></div>
+        <div>
+          <h2
+            style="
+              padding: 20px;
+              background-color: #88aab5;
+              border-radius: 10px;
+            "
+          >
+            Local Weather News
+          </h2>
+          <table style="width: 100%">
+            <tr>
+              <td>
+                <a href="https://www.moezala.gov.mm/my/flood-bulletin">
+                  <img
+                    src="flooding.jpg"
+                    style="width: 100px; height: 100px"
+                  /><br />Flood Situation News</a
+                >
+              </td>
+              <td>
+                <a href="https://www.moezala.gov.mm/my/earthquake-news%20">
+                  <img
+                    src="eq-1.png"
+                    style="width: 100px; height: 100px"
+                  /><br />
+                  Earthquake News</a
+                >
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <a href="https://www.moezala.gov.mm/my/flood-warning%20">
+                  <img
+                    src="rflow.jpg"
+                    style="width: 100px; height: 100px"
+                  /><br />
+                  Flood Warning News</a
+                >
+              </td>
+              <td>
+                <a
+                  href="https://www.moezala.gov.mm/my/daily-weather-forecast%20"
+                >
+                  <img
+                    src="weather.png"
+                    style="width: 100px; height: 100px"
+                  /><br />
+                  Daily Weather News
+                </a>
+              </td>
+            </tr>
+          </table>
+        </div>
+      </div>
+      <div class="weather-data">
+        <div class="current-weather">
+          <div class="details">
+            <h2>_______ ______</h2>
+            <h6>Temperature: __°C</h6>
+            <h6>Wind: __ M/S</h6>
+            <h6>Humidity: __%</h6>
+          </div>
+        </div>
+        <div class="days-forecast">
+          <h2
+            style="
+              padding: 20px;
+              background-color: #88aab5;
+              border-radius: 10px;
+              color: white;
+              text-align: center;
+            "
+          >
+            5-Days Forecast
+          </h2>
+          <ul class="weather-cards">
+            <li class="card">
+              <h3>______</h3>
+              <h6>Temp: __C</h6>
+              <h6>Wind: __ M/S</h6>
+              <h6>Humidity: __%</h6>
+            </li>
+            <li class="card">
+              <h3>______</h3>
+              <h6>Temp: __C</h6>
+              <h6>Wind: __ M/S</h6>
+              <h6>Humidity: __%</h6>
+            </li>
+            <li class="card">
+              <h3>______</h3>
+              <h6>Temp: __C</h6>
+              <h6>Wind: __ M/S</h6>
+              <h6>Humidity: __%</h6>
+            </li>
+            <li class="card">
+              <h3>______</h3>
+              <h6>Temp: __C</h6>
+              <h6>Wind: __ M/S</h6>
+              <h6>Humidity: __%</h6>
+            </li>
+            <li class="card">
+              <h3>______</h3>
+              <h6>Temp: __C</h6>
+              <h6>Wind: __ M/S</h6>
+              <h6>Humidity: __%</h6>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
